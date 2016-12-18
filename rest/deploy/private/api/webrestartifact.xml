@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<restInterface>
+    <method>POST</method>
+    <path>/deploy</path>
+    <role>$user</role>
+    <permissionAction>deployment.deploy</permissionAction>
+    <inputAsStream>true</inputAsStream>
+    <output>nabu.management.deployment.types.deployOutput</output>
+</restInterface>

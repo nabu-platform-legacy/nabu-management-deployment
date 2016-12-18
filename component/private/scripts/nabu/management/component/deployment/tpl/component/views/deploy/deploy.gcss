@@ -1,0 +1,6 @@
+[route=deploymentDeploy] {
+	.file, .state {
+		margin: 10px;
+		text-align: center;
+	}
+}
