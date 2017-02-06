@@ -2,7 +2,7 @@
 <restInterface>
     <method>POST</method>
     <path>/deploy</path>
-    <role>$user</role>
+    <role>manager</role>
     <permissionAction>deployment.deploy</permissionAction>
     <inputAsStream>true</inputAsStream>
     <output>nabu.management.deployment.types.deployOutput</output>
